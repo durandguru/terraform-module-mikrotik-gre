@@ -9,7 +9,7 @@ This module let perform the following:
 ### Calling the module:
 ```terraform
 module "terraform-module-mikrotik-gre" {
-  source = "source = "github.com/durandguru/terraform-module-mikrotik-gre"
+  source = "github.com/durandguru/terraform-module-mikrotik-gre"
 
   gretunnels = var.gretunnels
 }
